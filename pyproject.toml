@@ -1,0 +1,14 @@
+[project]
+name = "bsd-syslog-message-parser"
+version = "0.1.0"
+description = "Parses BSD syslog (RFC 3164) datagrams into their component fields."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
